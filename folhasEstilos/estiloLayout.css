@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #575757;
+    color: #fff;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    width: 70%;
+}
+
+article {
+    width: 100%;
+    background-color: #aaa;
+}
+
+aside ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #575757;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+
+}
+
+header img{
+    display: inline-block;/*permite q a imge o txt fiquem na mesma linha*/
+    vertical-align: middle;/*alinha verticalmente a img com o txt*/
+    width: 100px; /*define a largura da img*/
+    height: auto; /*mantém a proporção da img*/
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;/*alinha verticalmente o txt com a imagem*/
+    margin: 0;
+}

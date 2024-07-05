@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/logo/logoSiteIcon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../folhasEstilos/estiloLayout.css"/>
+    <link rel="stylesheet" type="text/css" href="../folhasEstilos/estiloFormulario.css"
+    <title>Meu Site</title>
+</head>
+<body>
+    <header>
+        <img src="../imagens/logo/logoSite.png" alt="Logo do Site"/>
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="../paginas/index.html">Página Principal</a></li>
+                <li><a href="../paginas/sobre.html">Sobre</a></li>
+                <li><a href="../paginas/contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Formulário de contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required/>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required/>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem"  rows="4" required></textarea>
+                <label for="motivo">Motivo de Contato</label>
+                <select name="motivo" id="motivo">
+                    <option value="duvida">Duvida</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="palestras">Palestras</option>
+                    <option value="outros">Outros</option>
+                </select>
+                <input type="submit" value="enviar"/>
+            </form>
+        </section>
+        <aside>
+            <h2>Conteúdos Relacionados</h2>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>Copyright 2024 Meu Site</p>
+    </footer>
+</body>
+</html>
